@@ -24,29 +24,42 @@
   }
   main {
     display: block;
-    margin: 0 auto;
-    width: 95%;
+    padding: 0 20px;
+    text-align: center;
   }
   section {
-    width: 33%;
+    width: 32%;
     min-width: 270px;
     display: inline-block;
-    padding: 2%;
+    padding: 10px;
     height: 100%;
     vertical-align: middle;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
+    text-align: left;
   }
   section.blue {
     color: #fdfdfd;
-  }
-  section.grey {
-    background-color: #e3e1eb;
   }
   section.grey h3 {
     color: rgb(36, 64, 143);
   }
   section a {
     font-weight: bold;
+  }
+  .grey .content {
+    background-color: #e3e1eb;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .logo {
+    width: 100%;
+  }
+  #charles {
+    float: right;
+    border-radius: 3px;
+    width: 200px;
   }
   footer {
     background-color: #f2edda;
@@ -101,42 +114,46 @@
       construction of large PVD double-drum 14 drive coater (PM4).
   </section>
   <section class='grey'>
-    <h3>HELP WITH:</h3>
-    <ul>
-      <li>Unwinding Winding
-      <li>Speed
-      <li>Tension
-      <li>Wrinkle Control Guiding (Steering) Coating Laminating Slitting
-      <li>Sheeting
-      <li>Roll Handling Conveyors
-    </ul>
-    <h3>SERVICES INCLUDE:</h3>
-    <ul>
-      <li>Analysis, Problem Solving Adjustments &amp; Modifications Upgrades
-      <li>Machine Design
-      <li>Prototype/ Pilot Machine Con Ancillary Equipment
-      <li>Machine Relocation
-      <li>Project Management
-    </ul>
-  </section>
-  <section class='blue'>
-    <h3>CHARLES TILFORD</h3>
-    <h4>M.S. Columbia University, NYC</h4>
-    <h4>B.S.M.E. Columbia University, NYC</h4>
-    <h4>B.A. Middlebury College, Vermont</h4>
-    <p>Lifetime Member, American Society of Mechanical Engineers
-    <p>Member, American Society of Heating, Refrigeration, 
-      and Air-Conditioning Engineers
-    <p>Obtained Professional Engineer Registration in New York and 
-      California (not current)
-    <h3>Web Handling training from:</h3>
-    <p>Dr. David Roisum, Consultant and AIMCAL Web Instructor
-    <p>Web Handling Research Center, OSU
-    <p>Clarence Klassen, Consultant and AIMCAL Drives Instructor
-    <p>Reinhold Schable, Slitting Guru
-    <h3>Familiar with production machines from companies including:</h3>
-    <p>Anelva, Black-Clawson (Davis-Standard), Dusenbery, ConQuip,
-      Ebner, Kurdex, Northfield Automation, Leybold
+    <image class='logo' src='images/logo.png' alt='logo'>
+    <div class='content'>
+      <h3>HELP WITH:</h3>
+      <ul>
+        <li>Unwinding Winding
+        <li>Speed
+        <li>Tension
+        <li>Wrinkle Control Guiding (Steering) Coating Laminating Slitting
+        <li>Sheeting
+        <li>Roll Handling Conveyors
+      </ul>
+      <h3>SERVICES INCLUDE:</h3>
+      <ul>
+        <li>Analysis, Problem Solving Adjustments &amp; Modifications Upgrades
+        <li>Machine Design
+        <li>Prototype/ Pilot Machine Con Ancillary Equipment
+        <li>Machine Relocation
+        <li>Project Management
+      </ul>
+    </section>
+    <section class='blue'>
+      <image id='charles' src='images/Charles.jpg' alt='Charles Tilford'>
+      <h3>CHARLES TILFORD</h3>
+      <h4>M.S. Columbia University, NYC</h4>
+      <h4>B.S.M.E. Columbia University, NYC</h4>
+      <h4>B.A. Middlebury College, Vermont</h4>
+      <p>Lifetime Member, American Society of Mechanical Engineers
+      <p>Member, American Society of Heating, Refrigeration, 
+        and Air-Conditioning Engineers
+      <p>Obtained Professional Engineer Registration in New York and 
+        California (not current)
+      <h3>Web Handling training from:</h3>
+      <p>Dr. David Roisum, Consultant and AIMCAL Web Instructor
+      <p>Web Handling Research Center, OSU
+      <p>Clarence Klassen, Consultant and AIMCAL Drives Instructor
+      <p>Reinhold Schable, Slitting Guru
+      <h3>Familiar with production machines from companies including:</h3>
+      <p>Anelva, Black-Clawson (Davis-Standard), Dusenbery, ConQuip,
+        Ebner, Kurdex, Northfield Automation, Leybold
+    </div>
   </section>
 </main>
 <footer>
